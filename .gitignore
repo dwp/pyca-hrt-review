@@ -1,0 +1,16 @@
+.env
+.sass-cache
+.DS_Store
+.start.pid
+.port.tmp
+public
+lib/govuk_template.html
+govuk_modules
+node_modules
+.tmuxp.*
+dist/
+dist.gz
+*.log
+TODO.txt
+app/countries/location-picker-canonical-list.json
+app/residence

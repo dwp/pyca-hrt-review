@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+  {% include "includes/phase_banner_alpha.html" %}
+  <a class="link-back" href="/">Back</a>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      {% if error %}
+        <div class="error-summary">
+          <h1 class="heading-medium error-summary-heading">Please fix the following:</h1>
+          <ul class="error-summary-list">
+            <li><a href='#question'>
+              Choose if you can find the changes.
+            </a></li>
+          </ul>
+        </div>
+      {% endif %}
+
+      <h1 id="question" class="heading-large">Can you locate the most recent change in circumstances that has generated the 'Review and Refer to Decision maker (HRT)' to-do?</h1>
+
+      <p class="text">This can be found in the claimant’s disclosure reporting or in the notes of the to-do. Examples of such change can be: change of address or change of work and earnings etc.</p>
+
+      {% include "includes/yes_no_form.html" %}
+
+    </div>
+  </div>
+</main>
+{% endblock %}

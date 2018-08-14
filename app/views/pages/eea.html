@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+  {% include "includes/phase_banner_alpha.html" %}
+  <a class="link-back" href="/">Back</a>
+  <div class="grid-row">
+    <div class="column-full">
+
+      {% if error %}
+        <div class="error-summary">
+          <h1 class="heading-medium error-summary-heading">Please fix the following:</h1>
+          <ul class="error-summary-list">
+            <li><a href='#question'>
+              Type in the right to reside type in the decision
+            </a></li>
+          </ul>
+        </div>
+      {% endif %}
+
+      <h1 id="question" class="heading-large">What right to reside type is recorded in the decision?</h1>
+      <form class="form" method="post" action="/eea">
+        <select name="response" id="openregister-picker" data-graph="/public/residence/right-to-reside-graph.json" class="form-control full">
+          {% for type in types %}
+            <option value="{{type[1]}}">{{type[0]}}</option>
+          {% endfor %}
+        </select>
+        <p class="text"><a href="/refer">Other type not listed above</a></p>
+        <p class="text"><a href="/refer">I'm not sure I can identify the right to reside</a></p>
+        <input class="button button-continue" type="submit" value="Continue">
+      </form>
+    </div>
+  </div>
+</main>
+{% endblock %}

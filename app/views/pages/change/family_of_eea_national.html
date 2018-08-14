@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  {% include "includes/phase_banner_alpha.html" %}
+  <a class="link-back" href="/">Back</a>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      {% include "includes/yes_no_error.html" %}
+
+      <h1 id="question" class="heading-large">Has the user reported any of the following changes?</h1>
+
+      <p>These can be found in the 'Review HRT Decision' to-do.</p>
+
+      <div>
+        <ul class="list list-bullet pyca-list">
+          <li>The relationship ending</li>
+          <li>A change that affects the right to reside of the EEA national they are deriving rights from</li>
+          <li>The claimant, if under 21, reaching their 21st birthday</li>
+          <li>If the right to reside is derived someone under 21, that person reaching their 21st birthday</li>
+          <li>End date of Residence Permit</li>
+          <li>Award of other residence type</li>
+          <li>Notice of deportation</li>
+      </ul>
+      </div>
+
+      {% include "includes/yes_no_form.html" %}
+
+    </div>
+  </div>
+</main>
+{% endblock %}

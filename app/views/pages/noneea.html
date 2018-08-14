@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+  {% include "includes/phase_banner_alpha.html" %}
+  <a class="link-back" href="/">Back</a>
+
+  <div class="grid-row">
+    <div class="column-full">
+      <h1 class="heading-large">Click on the Right to Reside type that is recorded in the decision</h1>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">In words</th>
+        <th scope="col">In regulations</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="/family_of_british_citizen">Family member of a British Citizen</a></td>
+        <td class="multiline">Regulation 9 of the Immigration (European Economic Area) Regulations 2006
+          <span class="bold">OR</span> Regulation 9 of the Immigration (European Economic Area) Regulations 2016</td>
+      </tr>
+      <tr>
+        <td><a href="/family_of_eea_national">Family Member of an EEA national</a></td>
+        <td class="multiline">Regulation 7 of the Immigration (European Economic Area) Regulations 2006
+          <span class="bold">OR</span> Regulation 7 of the Immigration (European Economic Area) Regulations 2016
+          <span class="bold">OR</span> Regulation 8 of the Immigration (European Economic Area) Regulations 2006
+          <span class="bold">OR</span> Regulation 8 of the Immigration (European Economic Area) Regulations 2016</td>
+      </tr>
+      <tr>
+        <td><a href="/humanitarian_protection">Humanitarian Protection</a></td>
+        <td class="multiline">Regulation 9(4)(f) of the Universal Credit Regulations 2013</td>
+      </tr>
+      <tr>
+        <td><a href="/indefinite_leave_to_remain">Indefinite Leave To Remain</a></td>
+        <td class="multiline">Regulation 9(4)(e) of the Universal Credit Regulations 2013</td>
+      </tr>
+      <tr>
+        <td><a href="/limited_leave_to_remain">Limited Leave To Remain</a></td>
+        <td class="multiline">Regulation 9(4)(e) of the Universal Credit Regulations 2013</td>
+      </tr>
+      <tr>
+        <td><a href="/nochange">Permanent right to reside</a></td>
+        <td class="multiline">Regulation 15(1) of the Immigration (European Economic Area) Regulations 2006
+          <span class="bold">OR</span> Regulation 15(1) of the Immigration (European Economic Area) Regulations 2016</td>
+      </tr>
+      <tr>
+        <td><a href="/primary_carer_child_education">Primary Carer of a Child in Education</a></td>
+        <td class="multiline">Regulation 15A of the Immigration (European Economic Area) Regulations 2006
+          <span class="bold">OR</span> Regulation 16 of the Immigration (European Economic Area) Regulations 2016</td>
+      </tr>
+      <tr>
+        <td><a href="/refugee">Refugee</a></td>
+        <td class="multiline">Regulation 9(4)(d) of the Universal Credit Regulations 2013</td>
+      </tr>
+      <tr>
+        <td><a href="/settlement">Settlement</a></td>
+        <td class="multiline">Regulation 9(4)(e) of the Universal Credit Regulations 2013</td>
+      </tr>
+      <tr>
+        <td><a href="/no_recourse_public_funds">No Recourse to Public Funds</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br />
+
+  <strong class="bold-small">Need help?</strong>
+  <p class="text">
+    <a href="/refer">Claimant has a right to reside type not listed above</a>
+  </p>
+  <p class="text">
+    <a href="/refer">I'm not sure I can identify the right to reside</a>
+  </p>
+
+</main>
+{% endblock %}

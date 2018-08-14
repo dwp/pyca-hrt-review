@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  {% include "includes/phase_banner_alpha.html" %}
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">
+        HRT Review Prototype
+        <span class="heading-secondary">{{releaseVersion}}</span>
+      </h1>
+
+      <p>Use this service to find out:</p>
+      <ul class="list list-bullet">
+        <li>if this claimant should have a review for their HRT</li>
+        <li>how to clear the review and refer to Decision Maker (HRT) to-do or refer it to a Decision Maker</li>
+      </ul>
+
+      <p><a class="button button-start" href="/find_decision" role="button">Start Now</a></p>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

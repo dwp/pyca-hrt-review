@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<main id="content" role="main">
+  {% include "includes/phase_banner_alpha.html" %}
+  <a class="link-back" href="/">Back</a>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 id="outcome" class="heading-large">You can now clear the 'Review HRT Decision' to-do</h1>
+
+      <p>The change <strong class="bold">will not</strong> affect this claimant’s right to reside.</p>
+
+      <p>How to clear the Review and Refer to Decision Maker (HRT) to-do </p>
+
+      <ol class="list list-number">
+        <li>Select 'no' to the question 'Is an HRT review needed?'
+        <li>In the decision notes type 'The original decision on the claimant's HRT status is not affected by this change'</li>
+        <li>Click done</li>
+      </ol>
+
+      <p><a class="button" href="/" role="button">Check another claimant</a></p>
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+[
+  ["Family member of a British Citizen", "family_of_british_citizen"],
+  ["Family Member of an EEA national", "family_of_eea_national"],
+  ["Permanent right to reside", "nochange"],
+  ["Primary Carer of a Child in Education", "primary_carer_child_education"],
+  ["Retained worker (maternity period)", "retained_worker_pregnancy"],
+  ["Retained worker status (looking for work)", "retained_worker_seeking"],
+  ["Retained worker status (temp incapacity)", "retained_worker_sick"],
+  ["Retained self employed status (ill health)", "retained_self_employed"],
+  ["Self-employed person", "self_employed"],
+  ["Worker", "current_worker"]
+]

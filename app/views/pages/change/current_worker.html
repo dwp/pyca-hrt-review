@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  {% include "includes/phase_banner_alpha.html" %}
+  <a class="link-back" href="/">Back</a>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      {% include "includes/yes_no_error.html" %}
+
+      <h1 id="question" class="heading-large">Has the user reported any of the following changes?</h1>
+
+      <p>These can be found in the 'Review HRT Decision' to-do.</p>
+
+      <ul class="list list-bullet">
+        <li>Stopping work</li>
+        <li>Hours dropping to zero or minimal level for a prolonged period</li>
+        <li>Becoming unable to work</li>
+        <li>Changing jobs or contract</li>
+      </ul>
+
+      {% include "includes/yes_no_form.html" %}
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  {% include "includes/phase_banner_alpha.html" %}
+  <a class="link-back" href="/">Back</a>
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      {% include "includes/yes_no_error.html" %}
+
+      <h1 id="question" class="heading-large">Has the user reported any of the following changes?</h1>
+
+      <p>These can be found in the 'Review HRT Decision' to-do.</p>
+
+      <ul class="list list-bullet">
+        <li>Residence Permit has expired</li>
+        <li>Change of residence type</li>
+        <li>Notice of deportation</li>
+      </ul>
+
+      {% include "includes/yes_no_form.html" %}
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
