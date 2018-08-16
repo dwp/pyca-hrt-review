@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node start.js",
     "predist": "rm -rf dist && rm -rf dist.gz",
-    "dist": "gulp copy-dist && tar -czf dist.gz dist",
+    "dist": "gulp copy-dist && tar -czf dist.gz dist"
   },
   "dependencies": {
     "basic-auth": "^1.0.3",
