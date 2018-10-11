@@ -1,0 +1,542 @@
+{
+  "family_of_british_citizen": {
+    "names": {
+      "en-GB": "Family member of a British Citizen",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 9 of the Immigration (European Economic Area) Regulations 2006": {
+    "names": {
+      "en-GB": "Regulation 9 of the Immigration (European Economic Area) Regulations 2006 (Family member of a British Citizen)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 9 of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 9 of the Immigration (European Economic Area) Regulations 2016 (Family member of a British Citizen)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "family_of_eea_national": {
+    "names": {
+      "en-GB": "Family Member of an EEA national",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 7 of the Immigration (European Economic Area) Regulations 2006": {
+    "names": {
+      "en-GB": "Regulation 7 of the Immigration (European Economic Area) Regulations 2006 (Family Member of an EEA national)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 7 of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 7 of the Immigration (European Economic Area) Regulations 2016 (Family Member of an EEA national)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 8 of the Immigration (European Economic Area) Regulations 2006": {
+    "names": {
+      "en-GB": "Regulation 8 of the Immigration (European Economic Area) Regulations 2006 (Family Member of an EEA national)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 8 of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 8 of the Immigration (European Economic Area) Regulations 2016 (Family Member of an EEA national)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "permanent_right_to_reside": {
+    "names": {
+      "en-GB": "Permanent right to reside",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 15(1) of the Immigration (European Economic Area) Regulations 2006": {
+    "names": {
+      "en-GB": "Regulation 15(1) of the Immigration (European Economic Area) Regulations 2006 (Permanent right to reside)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 15(1) of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 15(1) of the Immigration (European Economic Area) Regulations 2016 (Permanent right to reside)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "primary_carer_child_education": {
+    "names": {
+      "en-GB": "Primary Carer of a Child in Education",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 15A of the Immigration (European Economic Area) Regulations 2006": {
+    "names": {
+      "en-GB": "Regulation 15A of the Immigration (European Economic Area) Regulations 2006 (Primary Carer of a Child in Education)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 16 of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 16 of the Immigration (European Economic Area) Regulations 2016 (Primary Carer of a Child in Education)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "retained_worker_pregnancy": {
+    "names": {
+      "en-GB": "Retained worker (maternity period)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(1)(b) of the Immigration (European Economic Area) Regulations 2006 (Retained worker (maternity period))": {
+    "names": {
+      "en-GB": "Regulation 6(1)(b) of the Immigration (European Economic Area) Regulations 2006 (Retained worker (maternity period))",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(1)(b) of the Immigration (European Economic Area) Regulations 2016 (Retained worker (maternity period))": {
+    "names": {
+      "en-GB": "Regulation 6(1)(b) of the Immigration (European Economic Area) Regulations 2016 (Retained worker (maternity period))",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "retained_worker_seeking": {
+    "names": {
+      "en-GB": "Retained worker status (looking for work)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(2)(b) of the Immigration (European Economic Area) Regulations 2006": {
+    "names": {
+      "en-GB": "Regulation 6(2)(b) of the Immigration (European Economic Area) Regulations 2006 (Retained worker status (looking for work))",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(2)(b) of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 6(2)(b) of the Immigration (European Economic Area) Regulations 2016 (Retained worker status (looking for work))",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "retained_worker_sick": {
+    "names": {
+      "en-GB": "Retained worker status (temp incapacity)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(2)(a) of the Immigration (European Economic Area) Regulations 2006": {
+    "names": {
+      "en-GB": "Regulation 6(2)(a) of the Immigration (European Economic Area) Regulations 2006 (Retained worker status (temp incapacity))",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(2)(a) of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 6(2)(a) of the Immigration (European Economic Area) Regulations 2016 (Retained worker status (temp incapacity))",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "retained_self_employed": {
+    "names": {
+      "en-GB": "Retained self employed status (ill health)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(3) of the Immigration (European Economic Area) Regulations 2006": {
+    "names": {
+      "en-GB": "Regulation 6(3) of the Immigration (European Economic Area) Regulations 2006 (Retained self employed status (ill health))",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(3) of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 6(3) of the Immigration (European Economic Area) Regulations 2016 (Retained self employed status (ill health))",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "self_employed": {
+    "names": {
+      "en-GB": "Self-employed person",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(1)(c) of the Immigration (European Economic Area) Regulations 2006": {
+    "names": {
+      "en-GB": "Regulation 6(1)(c) of the Immigration (European Economic Area) Regulations 2006 (Self-employed person)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(1)(c) of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 6(1)(c) of the Immigration (European Economic Area) Regulations 2016 (Self-employed person)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "current_worker": {
+    "names": {
+      "en-GB": "Worker",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(1)(b) of the Immigration (European Economic Area) Regulations 2006 (Worker)": {
+    "names": {
+      "en-GB": "Regulation 6(1)(b) of the Immigration (European Economic Area) Regulations 2006 (Worker)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(1)(b) of the Immigration (European Economic Area) Regulations 2016 (Worker)": {
+    "names": {
+      "en-GB": "Regulation 6(1)(b) of the Immigration (European Economic Area) Regulations 2016 (Worker)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "student": {
+    "names": {
+      "en-GB": "Student",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(1)(e) of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 6(1)(e) of the Immigration (European Economic Area) Regulations 2016 (Student)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "self_sufficient": {
+    "names": {
+      "en-GB": "Self-Sufficient",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "Regulation 6(1)(d) of the Immigration (European Economic Area) Regulations 2016": {
+    "names": {
+      "en-GB": "Regulation 6(1)(d) of the Immigration (European Economic Area) Regulations 2016 (Self-Sufficient)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  }
+}

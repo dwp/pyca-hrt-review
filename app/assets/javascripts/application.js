@@ -9,13 +9,13 @@ $(document).ready(function () {
   window.GOVUKFrontend.initAll()
 })
 
-// Country picker
-var nationality = document.getElementById('nationality')
+// Any autocomplete picker
+var picker = document.querySelector('select[data-source]')
 
-if (nationality) {
+if (picker) {
   openregisterLocationPicker({
     defaultValue: '',
-    selectElement: nationality,
-    url: nationality.dataset.source
+    selectElement: picker,
+    url: picker.dataset.source
   })
 }
