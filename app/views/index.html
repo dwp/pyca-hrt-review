@@ -33,37 +33,37 @@
           <div class="govuk-grid-column-one-third">
             <dl>
               <dt class="govuk-heading-s">Date of release</dt>
-              <dd class="govuk-body">1 May 2018</dd>
+              <dd class="govuk-body">TBC</dd>
             </dl>
           </div>
 
           <div class="govuk-grid-column-one-third">
             <dl>
               <dt class="govuk-heading-s">Feature</dt>
-              <dd class="govuk-body">Fix radio buttons on thin clients</dd>
+              <dd class="govuk-body">Content changes to clear to-do instructions</dd>
             </dl>
           </div>
 
           <div class="govuk-grid-column-one-third">
             <dl>
               <dt class="govuk-heading-s">Related stories</dt>
-              <dd class="govuk-body">PYCA-797</dd>
+              <dd class="govuk-body">PYCA-1040</dd>
             </dl>
           </div>
         </div>
 
         <h3 class="govuk-heading-s">Changes</h3>
-        <p>Prototype rebuilt from QA version using GOV.UK Design System. Latest release fixed radio buttons which weren’t working on Citrix thin clients.</p>
+        <p>Replace bold text with regular for “will” and “will not” in to-do instructions plus additional changes from Helen</p>
 
         <h3 class="govuk-heading-s">Hypothesis</h3>
-        <p>None</p>
+        <p>Some Case Managers are not following the Review HRT process fully, leading to them not entering the Agent notes and booking unnecessary HRT interviews. This creates unnecessary steps, increases backlog, and uses up more staff work time and acts as a payment blocker for claimants</p>
 
         <h3 class="govuk-heading-s">Research notes</h3>
         <p>None</p>
 
         {{ govukButton({
           text: "View prototype",
-          href: "/prototype",
+          href: "/PYCA-1040",
           classes: "govuk-button--start"
         }) }}
       </div>
@@ -71,6 +71,63 @@
 
     </div>
     {# End of most recent box #}
+
+    <h2 class="govuk-heading-l">All versions</h2>
+
+    {# Start of hidden panel #}
+    <details class="govuk-details all-versions">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          Show all versions
+        </span>
+      </summary>
+      <div class="govuk-details__text">
+
+        {# Start of prototype write up #}
+        <div class="prototype-write-up">
+          <div class="govuk-grid-row">
+            <div class="govuk-grid-column-one-third">
+              <dl>
+                <dt class="govuk-heading-s">Date of release</dt>
+                <dd class="govuk-body">1 May 2018</dd>
+              </dl>
+            </div>
+
+            <div class="govuk-grid-column-one-third">
+              <dl>
+                <dt class="govuk-heading-s">Feature</dt>
+                <dd class="govuk-body">Fix radio buttons on thin clients</dd>
+              </dl>
+            </div>
+
+            <div class="govuk-grid-column-one-third">
+              <dl>
+                <dt class="govuk-heading-s">Related stories</dt>
+                <dd class="govuk-body">PYCA-797</dd>
+              </dl>
+            </div>
+          </div>
+
+          <h3 class="govuk-heading-s">Changes</h3>
+          <p>Prototype rebuilt from QA version using GOV.UK Design System. Latest release fixed radio buttons which weren’t working on Citrix thin clients.</p>
+
+          <h3 class="govuk-heading-s">Hypothesis</h3>
+          <p>None</p>
+
+          <h3 class="govuk-heading-s">Research notes</h3>
+          <p>None</p>
+
+          {{ govukButton({
+            text: "View prototype",
+            href: "/prototype",
+            classes: "govuk-button--start"
+          }) }}
+        </div>
+        {# End of prototype write up #}
+
+      </div>
+    </details>
+    {# End of hidden panel #}
 
   </div>
 </div>
