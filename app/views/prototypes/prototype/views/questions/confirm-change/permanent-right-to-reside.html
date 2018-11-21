@@ -1,0 +1,13 @@
+{% extends "../../question.html" %}
+
+{% set changesQuestion -%}
+Has the user reported that the Residence Permit has expired?
+{%- endset %}
+
+{% set changesHint %}
+<p>The answer can be found in the ‘Review HRT Decision’ to-do.</p>
+{% endset %}
+
+{% block content %}
+  {% include "includes/yes-no-changes.html" %}
+{% endblock %}

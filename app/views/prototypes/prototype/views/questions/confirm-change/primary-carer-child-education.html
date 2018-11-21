@@ -1,0 +1,16 @@
+{% extends "../../question.html" %}
+
+{% set changesHint %}
+<p>These can be found in the ‘Review HRT Decision’ to-do.</p>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li>They have started Work or Self-employment</li>
+  <li>Child leaving the household</li>
+  <li>Child leaving school (including becoming home schooled)</li>
+  <li>Child reaching age 18</li>
+</ul>
+{% endset %}
+
+{% block content %}
+  {% include "includes/yes-no-changes.html" %}
+{% endblock %}

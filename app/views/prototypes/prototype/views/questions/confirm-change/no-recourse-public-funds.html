@@ -1,0 +1,17 @@
+{% extends "../../question.html" %}
+
+{% set changesHint %}
+<p>These can be found in the ‘Review HRT Decision’ to-do.</p>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li>Residence Permit has expired</li>
+  <li>Change of residence type</li>
+  <li>Received notice of deportation</li>
+</ul>
+
+<p>If the change was to the entitled partner’s claim, it is not classed as a change for this claimant that would affect their HRT review.</p>
+{% endset %}
+
+{% block content %}
+  {% include "includes/yes-no-changes.html" %}
+{% endblock %}

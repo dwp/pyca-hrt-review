@@ -1,0 +1,16 @@
+{% extends "../../question.html" %}
+
+{% set changesHint %}
+<p>These can be found in the ‘Review HRT Decision’ to-do.</p>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li>Stopping self-employment</li>
+  <li>Hours dropping to zero or minimal level for a prolonged period</li>
+  <li>Becoming unable to work</li>
+</ul>
+{% endset %}
+
+{% block content %}
+  {% include "includes/yes-no-changes.html" %}
+{% endblock %}
+

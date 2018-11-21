@@ -1,0 +1,19 @@
+{% extends "../../question.html" %}
+
+{% set changesHint %}
+<p>These can be found in the ‘Review HRT Decision’ to-do.</p>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li>The relationship ending</li>
+  <li>The British Citizen stopping work or self-employment</li>
+  <li>The claimant, if under 21, reaching their 21st birthday</li>
+  <li>If the right to reside is derived someone under 21, that person reaching their 21st birthday</li>
+  <li>End date of Residence Permit</li>
+  <li>Award of other residence type</li>
+  <li>Notice of deportation</li>
+</ul>
+{% endset %}
+
+{% block content %}
+  {% include "includes/yes-no-changes.html" %}
+{% endblock %}

@@ -19,3 +19,14 @@ if (picker) {
     url: picker.dataset.source
   })
 }
+
+// Document container for event bubbling
+var container = $(document.body)
+
+// Use history for back link
+container.on('click', '.govuk-back-link', function (event) {
+  if (window.history && window.history.length > 2) {
+    window.history.back()
+    event.preventDefault()
+  }
+})
