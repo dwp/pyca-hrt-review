@@ -1,0 +1,33 @@
+{% extends "../question.html" %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <form method="post">
+
+      {{ govukSelect({
+        id: "right-to-reside",
+        name: "rightToReside",
+        attributes: {
+          "data-source": source
+        },
+        label: {
+          text: "What right to reside type is recorded in the decision?",
+          isPageHeading: true,
+          classes: "govuk-label govuk-label--l"
+        },
+        items: items
+      }) }}
+
+      {{ govukButton({
+        text: "Continue"
+      }) }}
+
+      <a class="govuk-body" href="{{ basePath }}/outcome/do-not-clear">Can’t find the right one</a>
+
+    </form>
+
+  </div>
+</div>
+{% endblock %}

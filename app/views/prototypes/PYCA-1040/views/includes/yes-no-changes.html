@@ -1,0 +1,43 @@
+{% set changesQuestion = changesQuestion if changesQuestion else "Has the user reported any of the following changes?" %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <form method="post">
+
+      {{ govukRadios({
+        classes: "govuk-radios--inline",
+        idPrefix: "changes",
+        name: "changes",
+        fieldset: {
+          legend: {
+            text: changesQuestion,
+            isPageHeading: true,
+            classes: "govuk-fieldset__legend--l"
+          }
+        },
+        hint: {
+          html: changesHint
+        },
+        items: [
+          {
+            value: "yes",
+            text: "Yes",
+            checked: checked("changes", "yes")
+          },
+          {
+            value: "no",
+            text: "No",
+            checked: checked("changes", "no")
+          }
+        ]
+      }) }}
+
+      {{ govukButton({
+        text: "Continue"
+      }) }}
+
+    </form>
+
+  </div>
+</div>

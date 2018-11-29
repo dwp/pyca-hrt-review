@@ -1,0 +1,30 @@
+{% extends "./question.html" %}
+
+{% block pageTitle -%}
+  Start – {{ serviceName }}
+{%- endblock %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-xl">
+      Can I clear this Review HRT decision to-do?
+    </h1>
+
+    <p>Use this service to find out:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>if this claimant should have a review for their HRT</li>
+      <li>how to clear the review and refer to Decision Maker (HRT) to-do or refer it to a Decision Maker</li>
+    </ul>
+
+    {{ govukButton({
+      text: "Start now",
+      href: basePath + "/questions",
+      classes: "govuk-button--start"
+    }) }}
+
+  </div>
+</div>
+{% endblock %}
