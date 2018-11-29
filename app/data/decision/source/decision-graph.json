@@ -1,0 +1,362 @@
+{
+  "british": {
+    "names": {
+      "en-GB": "British Citizen or national of the Common Travel Area",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_family_of_british_citizen": {
+    "names": {
+      "en-GB": "EEA – Family member of British Citizen",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_family_of_eea_national": {
+    "names": {
+      "en-GB": "EEA – Family member of EEA national",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_indefinite_leave_to_remain": {
+    "names": {
+      "en-GB": "EEA – Indefinite leave to remain",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_limited_leave_to_remain": {
+    "names": {
+      "en-GB": "EEA – Limited leave to remain",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_permanent_right_to_reside": {
+    "names": {
+      "en-GB": "EEA – Permanent right to reside",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_primary_carer_child_education": {
+    "names": {
+      "en-GB": "EEA – Primary carer of a child in education",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_retained_self_employed": {
+    "names": {
+      "en-GB": "EEA – Retained self employed status (ill health)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_retained_worker_seeking": {
+    "names": {
+      "en-GB": "EEA – Retained worker status (looking for work)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_retained_worker_pregnancy": {
+    "names": {
+      "en-GB": "EEA – Retained worker status (maternity period)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_retained_worker_sick": {
+    "names": {
+      "en-GB": "EEA – Retained worker status (temp. incapacity)",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_self_employed": {
+    "names": {
+      "en-GB": "EEA – Self employed person",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_self_sufficient": {
+    "names": {
+      "en-GB": "EEA – Self-sufficient",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_student": {
+    "names": {
+      "en-GB": "EEA – Student",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "eea_current_worker": {
+    "names": {
+      "en-GB": "EEA – Worker",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "non_eea_family_of_british_citizen": {
+    "names": {
+      "en-GB": "Non-EEA – Family member of British Citizen",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "non_eea_family_of_eea_national": {
+    "names": {
+      "en-GB": "Non-EEA – Family member of EEA national",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "non_eea_humanitarian_protection": {
+    "names": {
+      "en-GB": "Non-EEA – Humanitarian protection",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "non_eea_indefinite_leave_to_remain": {
+    "names": {
+      "en-GB": "Non-EEA – Indefinite leave to remain",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "non_eea_limited_leave_to_remain": {
+    "names": {
+      "en-GB": "Non-EEA – Limited leave to remain",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "non_eea_permanent_right_to_reside": {
+    "names": {
+      "en-GB": "Non-EEA – Permanent right to reside",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "non_eea_primary_carer_child_education": {
+    "names": {
+      "en-GB": "Non-EEA – Primary carer of a child in education",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "non_eea_refugee": {
+    "names": {
+      "en-GB": "Non-EEA – Refugee",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  },
+  "non_eea_settlement": {
+    "names": {
+      "en-GB": "Non-EEA – Settlement",
+      "cy": false
+    },
+    "meta": {
+      "canonical": true,
+      "canonical-mask": 1,
+      "stable-name": true,
+      "display-name": true
+    },
+    "edges": {
+      "from": []
+    }
+  }
+}

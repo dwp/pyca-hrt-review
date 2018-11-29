@@ -23,7 +23,9 @@ $govuk-assets-path: '/govuk/assets/';
   display: none;
 }
 
-.govuk-button + a.govuk-body {
-  display: inline-block;
-  margin: 8px 0 0 20px;
+@include govuk-media-query($from: tablet) {
+  .govuk-button + a.govuk-body {
+    display: inline-block;
+    margin: 8px 0 0 20px;
+  }
 }
