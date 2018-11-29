@@ -19,7 +19,7 @@ router.all('/', (req, res) => {
  * Redirects to first question
  */
 router.all('/questions', (req, res) => {
-  return res.redirect('./questions/find-decision')
+  return res.redirect('./questions/find-decision-to-do')
 })
 
 /**
@@ -39,6 +39,26 @@ router.all('/questions/find-decision', (req, res) => {
   }
 
   res.render(`${__dirname}/views/questions/find-decision`)
+})
+
+
+/**
+ * Question: is the HRT decision recorded in the to-do?
+ */
+router.all('/questions/find-decision-to-do', (req, res) => {
+  const submitted = req.body
+
+  // Decision found
+  if (submitted.findDecisionToDo === 'yes') {
+    return res.redirect('./right-to-reside-ucfs')
+  }
+
+  // Decision not found
+  if (submitted.findDecisionToDo === 'no') {
+    return res.redirect('./find-decision')
+  }
+
+  res.render(`${__dirname}/views/questions/find-decision-to-do`)
 })
 
 /**
@@ -119,6 +139,13 @@ for (let { value: right } of rightsList) {
     res.render(`${__dirname}/views/questions/confirm-change/${right}`)
   })
 }
+
+/**
+ * Questions
+ */
+router.all('/questions/:question', (req, res) => {
+  res.render(`${__dirname}/views/questions/${req.params.question}`)
+})
 
 /**
  * Outcomes

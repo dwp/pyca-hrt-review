@@ -9,27 +9,25 @@
       {{ govukRadios({
         classes: "govuk-radios--inline",
         idPrefix: "find-decision",
-        name: "findDecision",
+        name: "findDecisionToDo",
         fieldset: {
           legend: {
-            text: "Is the HRT decision recorded in claimant's history?",
+            text: "Is the HRT decision recorded in the to‑do?",
             isPageHeading: true,
             classes: "govuk-fieldset__legend--l"
           }
         },
-        hint: {
-          text: "You can find it in the decision document (LT54) in the claimant’s history under the to-do ‘Make a decision (HRT)’."
-        },
+       
         items: [
           {
             value: "yes",
             text: "Yes",
-            checked: checked("findDecision", "yes")
+            checked: checked("findDecisionToDo", "yes")
           },
           {
             value: "no",
             text: "No",
-            checked: checked("findDecision", "no")
+            checked: checked("findDecisionToDo", "no")
           }
         ]
       }) }}
