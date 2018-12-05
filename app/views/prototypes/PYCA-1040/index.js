@@ -24,7 +24,7 @@ router.all('/questions', (req, res) => {
 })
 
 /**
- * Question: Can you locate the decision?
+ * Question: Is the HRT decision recorded in the history?
  */
 router.all('/questions/find-decision-history', (req, res) => {
   const submitted = req.body
@@ -62,7 +62,7 @@ router.all('/questions/find-decision-to-do', (req, res) => {
 })
 
 /**
- * Question: What is the current decision recorded in the to-do?
+ * Question: What’s the current decision recorded in the to-do?
  */
 router.all('/questions/decision', (req, res) => {
   const submitted = req.body
