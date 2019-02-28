@@ -1,0 +1,36 @@
+{% extends "../question.html" %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <form method="post">
+
+      {{ govukSelect({
+        id: "nationality",
+        name: "nationality",
+        attributes: {
+          "data-source": "/data/location-autocomplete/source/location-autocomplete-graph.json"
+        },
+        label: {
+          text: "What nationality is recorded in the decision?",
+          isPageHeading: true,
+          classes: "govuk-label govuk-label--l"
+        },
+        hint: {
+          text: "It’s in ‘Summary of facts’ in the decision document (LT54)."
+        },
+        items: items
+      }) }}
+
+      {{ govukButton({
+        text: "Continue"
+      }) }}
+
+      <a class="govuk-body" href="{{ basePath }}/outcome/do-not-clear">Cannot find the nationality</a>
+
+    </form>
+
+  </div>
+</div>
+{% endblock %}

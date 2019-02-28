@@ -1,0 +1,14 @@
+{% extends "../../question.html" %}
+
+{% set changesHint %}
+<p class="govuk-hint">These are in the ‘review HRT decision’ to-do.</p>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li>Returned to work</li>
+  <li>Reached the review date set out in the decision</li>
+</ul>
+{% endset %}
+
+{% block content %}
+  {% include "includes/yes-no-changes.html" %}
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "../../question.html" %}
+
+{% set changesHint %}
+<p class="govuk-hint">These are in the ‘review HRT decision’ to-do.</p>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li>The relationship has ended</li>
+  <li>The British citizen has stopped work or self-employment</li>
+  <li>The claimant has reached age 21</li>
+  <li>The person the right to reside is derived from has reached age 21</li>
+  <li>Residence permit has expired</li>
+  <li>Residence type has changed</li>
+  <li>Notice of deportation received</li>
+</ul>
+{% endset %}
+
+{% block content %}
+  {% include "includes/yes-no-changes.html" %}
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "../question.html" %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <form method="post">
+
+      {{ govukRadios({
+        classes: "govuk-radios--inline",
+        idPrefix: "find-decision",
+        name: "findDecision",
+        fieldset: {
+          legend: {
+            text: "Is the HRT decision recorded in claimant’s history?",
+            isPageHeading: true,
+            classes: "govuk-fieldset__legend--l"
+          }
+        },
+        hint: {
+          text: "It’s in the decision document (LT54) in the claimant’s history, under the ‘make a decision (HRT)’ to-do."
+        },
+        items: [
+          {
+            value: "yes",
+            text: "Yes",
+            checked: checked("findDecision", "yes")
+          },
+          {
+            value: "no",
+            text: "No",
+            checked: checked("findDecision", "no")
+          }
+        ]
+      }) }}
+
+      {{ govukButton({
+        text: "Continue"
+      }) }}
+
+    </form>
+
+  </div>
+</div>
+{% endblock %}
