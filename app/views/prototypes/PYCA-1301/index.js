@@ -47,9 +47,11 @@ router.all('/questions/find-decision-history', (req, res) => {
  */
 router.all('/questions/find-decision-to-do', (req, res) => {
   const submitted = req.body
+  const saved = req.session.data
 
   // Decision found
   if (submitted.findDecisionToDo === 'yes') {
+    delete saved.nationality
     return res.redirect('./decision')
   }
 
@@ -88,7 +90,7 @@ router.all('/questions/nationality', (req, res) => {
 
   if (submitted.nationality) {
     if (countries.isCTA(submitted.nationality)) {
-      return res.redirect('../outcome/clear')
+      return res.redirect('../outcome/clear-legacy')
     }
 
     if (countries.isEEA(submitted.nationality)) {
@@ -141,7 +143,11 @@ router.all('/questions/check-right-to-reside', (req, res) => {
     }
 
     if (saved.rightToReside.match(/(british|permanent_right_to_reside)$/g)) {
-      return res.redirect('../outcome/clear')
+      return res.redirect(
+        saved.nationality
+          ? '../outcome/clear-legacy'
+          : '../outcome/clear'
+      )
     }
 
     // Normalise: Remove prefix, use hyphens for URL
@@ -165,6 +171,7 @@ for (let { value: right } of rightsList) {
   // Routing for this right
   router.all(`/questions/confirm-change/${right}`, (req, res) => {
     const submitted = req.body
+    const saved = req.session.data
 
     // Circumstances have changed
     if (submitted.changes === 'yes') {
@@ -173,7 +180,11 @@ for (let { value: right } of rightsList) {
 
     // Circumstances have not changed
     if (submitted.changes === 'no') {
-      return res.redirect('../../outcome/clear')
+      return res.redirect(
+        saved.nationality
+          ? '../../outcome/clear-legacy'
+          : '../../outcome/clear'
+      )
     }
 
     res.render(`${__dirname}/views/questions/confirm-change/${right}`)
