@@ -1,0 +1,15 @@
+{% extends "../../question.html" %}
+
+{% set changesHint %}
+<p class="govuk-hint">These are in the ‘review HRT decision’ to-do.</p>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li>Residence permit has expired</li>
+  <li>Residence type has changed</li>
+  <li>Notice of deportation received</li>
+</ul>
+{% endset %}
+
+{% block content %}
+  {% include "includes/yes-no-changes.html" %}
+{% endblock %}

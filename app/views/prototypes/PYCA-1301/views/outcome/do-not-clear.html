@@ -1,0 +1,23 @@
+{% extends "../page.html" %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-l">Do not clear the ‘review HRT decision’ to-do</h1>
+    <p>The change reported might affect the claim. It needs to be reviewed by a decision maker. They will decide if another HRT needs to be booked.</p>
+
+    <ol class="govuk-list govuk-list--number">
+      <li>For ‘Is an HRT review needed?’, select ‘Yes’.</li>
+      <li>In ‘Agent notes’, type ‘A decision maker needs to review the current decision following this change’.</li>
+      <li>Select ‘Save’.</li>
+    </ol>
+
+    {{ govukButton({
+      text: "Check another claimant",
+      href: basePath
+    }) }}
+
+  </div>
+</div>
+{% endblock %}

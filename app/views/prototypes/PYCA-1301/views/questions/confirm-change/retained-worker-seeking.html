@@ -1,0 +1,16 @@
+{% extends "../../question.html" %}
+
+{% set changesHint %}
+<p class="govuk-hint">These are in the ‘review HRT decision’ to-do.</p>
+
+<ul class="govuk-list govuk-list--bullet">
+  <li>Started work or self-employment</li>
+  <li>Genuine prospect of work review date reached</li>
+  <li>Sanctioned for not actively seeking or not being available for work</li>
+  <li>Stopped looking for work (for example they became sick or took on a caring role)</li>
+</ul>
+{% endset %}
+
+{% block content %}
+  {% include "includes/yes-no-changes.html" %}
+{% endblock %}
